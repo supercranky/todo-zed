@@ -1,0 +1,5 @@
+name = "Todo"
+grammar = "taskpaper"
+path_suffixes = ["todo", "todos", "task", "tasks", "taskpaper", "todo.txt", "done.txt"]
+tab_size = 2
+hard_tabs = false

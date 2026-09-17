@@ -1,0 +1,17 @@
+[package]
+name = "todo_plus"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[lib]
+path = "src/todo_plus.rs"
+crate-type = ["cdylib"]
+
+[[bin]]
+name = "todo_plus_lsp"
+path = "src/todo_plus_lsp.rs"
+
+[dependencies]
+serde_json = "1.0"
+zed_extension_api = "0.7.0"
